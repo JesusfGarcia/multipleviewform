@@ -1,0 +1,39 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #107e1f;
+  color: white;
+  padding: 10px 20px;
+  gap: 10px;
+}
+
+.tab-container button {
+  background-color: #107e1f;
+  border: 0px solid;
+  color: white;
+  font-size: 18px;
+  height: 100%;
+}
+
+.tab-container button:hover {
+  cursor: pointer;
+  background-color: #149425;
+}
+
+.form-container div {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
